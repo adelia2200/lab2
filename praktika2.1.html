@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .block {
+            color: #000;
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+
+        .parent {
+            height: 200px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= ЗАДАНИЕ 1 ================= -->
+<h3>Задание 1</h3>
+<p><b>Три в ряд</b></p>
+
+<div class="container">
+    <div class="row">
+        <div class="col block bg-light border">One of three columns</div>
+        <div class="col block bg-light border">One of three columns</div>
+        <div class="col block bg-light border">One of three columns</div>
+    </div>
+</div>
+
+<br>
+
+<!-- ================= ЗАДАНИЕ 2 ================= -->
+<h3>Задание 2</h3>
+<p><b>Большой контейнер</b></p>
+
+<div class="container-fluid bg-light p-3">
+    <h1>Привет мир</h1>
+</div>
+
+<br>
+
+<!-- ================= ЗАДАНИЕ 3 ================= -->
+<h3>Задание 3</h3>
+<p><b>Расположение блоков</b></p>
+<p><b>Различные блоки</b></p>
+
+<div class="container-fluid">
+
+    <!-- Первая строка -->
+    <div class="row mb-2">
+        <div class="col-6 block" style="background:#ff9999;">Первый</div>
+        <div class="col-6 block" style="background:#99ccff;">Второй</div>
+    </div>
+
+    <!-- Вторая строка -->
+    <div class="row mb-2">
+        <div class="col-2 block" style="background:#ff9999;">Первый</div>
+        <div class="col-2 block" style="background:#99ccff;">Второй</div>
+        <div class="col-2 block" style="background:#66ff99;">Третий</div>
+        <div class="col-2 block" style="background:#66ff99;">Четвертый</div>
+        <div class="col-2 block" style="background:#ffffff;">Пятый</div>
+        <div class="col-2 block" style="background:#cccccc;">Шестой</div>
+    </div>
+
+    <!-- Третья строка -->
+    <div class="row">
+        <div class="col-4 block" style="background:#ff9999;">Первый</div>
+        <div class="col-4 block" style="background:#99ccff;">Второй</div>
+        <div class="col-4 block" style="background:#66ff99;">Третий</div>
+    </div>
+
+</div>
+
+<br>
+
+<!-- ================= ЗАДАНИЕ 4 ================= -->
+<h3>Задание 4</h3>
+<p><b>Вертикальное расположение блоков</b></p>
+
+<div class="container parent d-flex justify-content-between">
+    
+    <div class="align-self-start block" style="background:#d98c8c;">
+        Крутой блок, верно?
+    </div>
+
+    <div class="align-self-center block" style="background:#d9c98c;">
+        Но посмотрите на этот
+    </div>
+
+    <div class="align-self-end block" style="background:#8cd9d3;">
+        Хотя чего там, этот самый крутой
+    </div>
+
+</div>
+
+<br>
+
+<!-- ================= ЗАДАНИЕ 5 ================= -->
+<h3>Задание 5</h3>
+<p><b>Отступы между блоками</b></p>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-5 block" style="background:#8cd9d3;">Блок слева</div>
+        <div class="col-5 offset-2 block" style="background:#c18cd9;">Блок с отступом справа</div>
+    </div>
+</div>
+
+</body>
+</html>
+</html>
